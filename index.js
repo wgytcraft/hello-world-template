@@ -1,3 +1,4 @@
 module.exports = function(host, res, req, error, version, ejs){
-  res.send('hello world!')
+  console.log(req.originalUrl)
+	res.send('hello world!')
 }
