@@ -1,4 +1,4 @@
 module.exports = function(host, res, req, error, version, ejs){
-  console.log(req.originalUrl)
+  console.log(req.path)
 	res.send('hello world!')
 }
