@@ -1,3 +1,5 @@
 module.exports = function(host, res, req, error, version, ejs){
-	res.send('hello world!')
+	res.writeHead(200, {'Content-Type': 'text/plain'});
+	res.write('hello world!')
+	res.end();
 }
