@@ -1,3 +1,3 @@
-module.exports = function(host, res, req, error, version, ejs,config){
+module.exports = function(req, res){
 	res.start('hello world!','text/plain');
 }
