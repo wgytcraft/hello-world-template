@@ -4,15 +4,17 @@
   "description": "test module",
   "main": "index.js",
   "scripts": {
-    "test": "echo no test"
+    "test": "echo \"No tests\"",
+    "start": "1host"
   },
   "repository": {
     "type": "git",
     "url": "github.com/1hostjs/hello-world-template.git"
   },
-  "keywords": [
-    "1hostjs"
-  ],
+  "dependecies": {
+    "@1hostjs/hosting": "^2"
+  },
+  "keywords": ["1hostjs"],
   "author": "wgyt",
   "license": "MIT"
 }
