@@ -1,7 +1,0 @@
-{
-  "name": "1host app",
-  "description": "Example 1host app",
-  "repository": "https://github.com/1hostjs/hello-world-template",
-  "logo": "https://avatars.githubusercontent.com/u/79263876?s=200&v=4",
-  "keywords": ["node", "1host", "starter"]
-}
